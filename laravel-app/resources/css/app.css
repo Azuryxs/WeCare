@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #dff6f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007b74;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    font-size: 16px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007b74;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #005951;
+}
+
+/* Main Section */
+main {
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-heading {
+    font-size: 28px;
+    color: #007b74;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-paragraph {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.main-buttons a {
+    background-color: #ff9f68;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-buttons a:hover {
+    background-color: #e68956;
+}
+
+/* Secondary Section */
+.secondary-section {
+    background-color: #f0fbf8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.secondary-heading {
+    font-size: 24px;
+    color: #007b74;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card img {
+    max-width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.secondary-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-buttons a {
+    background-color: #ff9f68;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.secondary-buttons a:hover {
+    background-color: #e68956;
+}
